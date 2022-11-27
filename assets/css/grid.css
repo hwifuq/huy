@@ -483,4 +483,7 @@
     .hide-on-mobile{
         display: none;
     }
+    #main{
+        background-color: rgba(174, 113, 21, 0.7);
+    }
 }
