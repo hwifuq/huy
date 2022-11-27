@@ -1,0 +1,105 @@
+/* RESET CSS */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+#main{
+    opacity:0.9;
+    background-color: rgba(10, 21, 50,0.9);
+    position: relative;
+    height:100%;
+}
+.content{
+    display: flex;
+    height:100%;
+    width:100%;
+}
+.left_side{
+    height:100%;
+    background-color: rgb(10,21,50);
+    width:400px;
+    margin-left: 32px;
+}
+.left_side .sub .pre{
+    font-weight: 900;
+    text-decoration: underline 0.1px;
+    text-transform: uppercase;
+}
+.left_side .sub h1{
+    color:rgb(86, 86, 16);
+    text-align: center;
+    margin: 24px 0;
+}
+.left_side .sub .hdn{
+    display: none;
+}
+
+.left_side .sub{
+    color:#fff;
+    padding-top: 100px;
+    margin-left:64px;
+}
+.left_side .sub .des{
+    padding: 24px;
+    line-height: 24px;
+    text-align: justify;
+
+}
+.left_side .sub h2{
+    color:rgb(86, 86, 16);
+    margin: 40px 0 12px 0;
+    text-transform: uppercase;
+    /* font-weight: 600; */
+}
+.right_side{
+    height:100%;
+    background-color: rgb(10,21,50);
+    width:calc(100% - 300px); 
+}
+.right_side .pic{
+    text-align: center;
+    transform: translateY(50%);
+}
+.right_side .pic .ava{
+    width:200px;
+    border-radius: 180px;
+}
+.right_side .pic .cmt{
+    color:#fff;
+    margin-top: 20px;
+}
+.social-list li{
+    display: block;
+    color:#fff;
+    /* width:40px; */
+}
+.social-list a{
+    list-style: none;
+    margin-left: 24px;
+    width: 200px;
+    padding:8px 5px;
+    display:list-item;
+    color:#fff;
+    text-decoration: none;
+    border:solid 1px #333;
+    margin-top: 5px;
+
+}
+.social-list a:hover{
+    color:rgb(86, 86, 16);
+    background-color: #fff;
+}
+.notification{
+    padding: 20px;
+    text-align: center;
+}
+.notification img{
+    margin-top: 20px;
+    border-radius: 180px;
+    width:100px;
+}
