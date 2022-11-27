@@ -101,7 +101,8 @@ html, body {
 }
 .notification p{
     border:solid 1px #000;
-    color:orangered;
+    background-color:orangered;
+    color:#fff;
     padding: 12px;
 }
 .notification img{
