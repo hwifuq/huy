@@ -50,12 +50,6 @@ html, body {
     text-align: justify;
     border:solid 1px rgb(86, 86, 16);
 }
-.left_side .sub h2{
-    color:rgb(86, 86, 16);
-    margin: 40px 0 12px 0;
-    text-transform: uppercase;
-    /* font-weight: 600; */
-}
 .right_side{
     height:100%;
     background-color: rgb(10,21,50);
