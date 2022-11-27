@@ -24,7 +24,7 @@ html, body {
     height:100%;
     background-color: rgb(10,21,50);
     width:400px;
-    margin-left: 32px;
+    padding-left: 32px;
 }
 .left_side .sub .pre{
     font-weight: 900;
