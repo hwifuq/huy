@@ -95,8 +95,13 @@ html, body {
     background-color: #fff;
 }
 .notification{
-    padding: 20px;
+    padding: 30px;
     text-align: center;
+}
+.notification p{
+    border:solid 1px #000;
+    color:orangered;
+    padding: 12px;
 }
 .notification img{
     margin-top: 20px;
